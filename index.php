@@ -2,21 +2,22 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="icon" type="icon/png" href="http://pngimg.com/uploads/poop/poop_PNG10.png">
+	<link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+	<link rel="icon" type="icon/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/1200px-OpenShift-LogoType.svg.png">
 
-	<title>My First Page</title>
+	<title>Test of Openshift</title>
 </head>
 <body>
-	<nav>
-		<h1>Welcome To This Shitty Page</h1>
+	<nav id="Nav">
+		<h1 class="Titulo">Bienvenido a esta prueba de Openshift</h1>
 	</nav>
 
-	<h3>No se programar en web</h3>
-	<h4>(Me caga)</h4>
-	<div>
+	<h3>Por Alejandro Zarate</h3>
+	<h4>Computacion tolerante a fallas</h4>
+	<div class="Conte">
 		<p>
-		Pero bueno, por lo menos este es un ejemplo suficiente para saber si funciona el openshift ese del cual el profe en lugar de enseñarnos, prefiere que busquemos por nuestra cuenta en tutoriales de mierda que hay por youtube.<br><br>
-		La ventaja es que cualquer wey random en internet enseña mejor que el profe, pero no hay pedo ya que nos cae bien porque no es exigente, podria haber sido Campos.
+		Este es un ejemplo de un codigo en php con el proposito de generar una aplicacion con el servicio de Openshift.<br><br>
+		En este caso se generará un cluster de manera local mediante el servicio de openshift codeready containers. 
 	</p>
 	</div>
 </body>
